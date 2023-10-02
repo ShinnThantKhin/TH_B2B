@@ -19,8 +19,8 @@ if btn:
     formatted_all= "{:.0f}".format(alltotal)
     formatted_x = "{:.0f}".format(x)
     st.success(f'Subtotal Fees : {formatted_sub} kyats')
-    st.success(f'TH Fees : {formatted_sub} kyats')
-    st.success(f'Total Fees : {formatted_sub} kyats')
+    st.success(f'TH Fees : {formatted_th} kyats')
+    st.success(f'Total Fees : {formatted_all} kyats')
     st.text('Onboard Fees')
     st.success(f'Onboard Fees : {formatted_x} kyats')
     
