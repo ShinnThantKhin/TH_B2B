@@ -17,7 +17,7 @@ if btn:
     formatted_sub = "{:.0f}".format(subtotal)
     formatted_th = "{:.0f}".format(th_fees)
     formatted_all= "{:.0f}".format(alltotal)
-    formatted_x = "{:.0f}".format(x)
+    formatted_x = "{:.2f}".format(x)
     st.success(f'Subtotal Fees : {formatted_sub} kyats')
     st.success(f'TH Fees : {formatted_th} kyats')
     st.success(f'Total Fees : {formatted_all} kyats')
